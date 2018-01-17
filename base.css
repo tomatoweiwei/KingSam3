@@ -1,0 +1,294 @@
+
+
+
+html {
+  -webkit-font-smoothing: antialiased; }
+
+  body {
+  font-family: 'PingFant TC', sans-serif;
+}
+
+.clearfix {
+  display: block;
+  zoom: 1; }
+  .clearfix:after, .clearfix:before {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+.grid {
+  padding: 20px 20px 100px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+
+}
+
+.grid li {
+  display: inline-block;
+  width: 440px;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  lefåt: 0;
+  padding: 40px;
+  background:#5f6d5f;
+  color:#BEBEBE ;
+}
+
+.grid figcaption h3 {
+  margin: 0;
+  padding: 0;
+  color:#FFFCEC;
+}
+
+.grid figcaption span:{
+  font-size::16px;
+}
+
+.grid figcaption a {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: inline-block;
+  background:#c9c0a2;
+  color:#844200;
+}
+
+
+
+a:hover,
+a:active {
+  color:#FFFCEC;
+}
+
+footer{
+  margin-bottom: 30px;
+
+}
+
+
+/* Individual Caption Styles */
+
+
+
+
+#shortcuts {
+  z-index: 300;
+  position: fixed;
+  top: 50px;
+  right: 0; }
+  #shortcuts li {
+    margin-bottom: 3px; }
+    #shortcuts li a {
+      float: right;
+      background: #FFF8D7;
+      border: 3px solid #FFF8D7;
+      -webkit-border-radius: 0.3125em 0 0 0.3125em;
+              border-radius: 0.3125em 0 0 0.3125em; }
+      #shortcuts li a img, #shortcuts li a i {
+        float: left;
+        width: 54px;
+        height: 54px; }
+      #shortcuts li a i {
+        padding-top: 5px;
+        text-indent: 5px;
+        font-size: 2.375em;
+        line-height: 1;
+        height: 49px; }
+      #shortcuts li a strong {
+        float: left;
+        display: block;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        padding-top:16px;
+        padding-left:10px;
+        font-size:18px;
+        color:#5B4B00 ;
+        white-space: nowrap;
+        -webkit-transition: width 400ms ease-out;
+                transition: width 400ms ease-out; }
+      #shortcuts li a:hover strong, #shortcuts li a:focus strong {
+        width: 8.5714285714em;
+        height: auto;
+        -webkit-transition: width 200ms ease-out;
+                transition: width 200ms ease-out; }
+
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+
+header {
+  position: relative;
+  overflow: hidden; 
+background: #aaba9e url(img/bg_header.png) repeat-x left bottom;
+  color: #fff; }
+#animate-area {
+  padding-top:15px;
+  min-height: 150px;
+    background: url(img/bg_title.png) repeat-x top center;
+    -webkit-background-size: auto 250px;
+            background-size: auto 250px; }
+            /*#-webkit給chrome用的。先寬再高#*/
+
+  header h1 {
+    color:#F0F0F0;
+    font-weight:800;
+    margin:30px 0px 0px 500px ;
+    font-size: 24px; }
+  header h2 {
+    margin-top:30px;
+    line-height:30px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: 600;
+    color:#F0F0F0 }
+
+  header p {
+    margin-top:30px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#F0F0F0 }
+
+
+
+.cs-style-6 figure img {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .cs-style-6 figure:hover img,
+.cs-style-6 figure.cs-hover img {
+  -webkit-transform: translateY(-50px) scale(0.5);
+  -moz-transform: translateY(-50px) scale(0.5);
+  -ms-transform: translateY(-50px) scale(0.5);
+  transform: translateY(-50px) scale(0.5);
+}
+
+.cs-style-6 figcaption {
+  height: 100%;
+  width: 100%;
+}
+
+.cs-style-6 figcaption h3 {
+  margin-top: 30%;
+  font-size:18px;
+}
+
+.cs-style-6 figcaption a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+footer{
+  background-color: #FFDEA1;
+    padding: 5px;
+}
+
+footer p{
+  float: left;
+    margin-top: 10px;
+    color: #969696
+}
+
+#iconmenu{
+  float:right;
+}
+
+#iconmenu ul{
+  margin:0;
+  padding:3px 0 0;
+  
+}
+
+#iconmenu li{
+  display: inline;
+    list-style-type: none;
+}
+
+
+#iconmenu img {
+    border: none;
+    width: 28px;
+
+}
+
+#submenu {
+    clear: both;
+    font-family: 'PingFant TC', san-serif;
+    font-size: 12px;
+    overflow: hidden;
+   
+}
+
+#submenu ul {
+    margin: 3px;
+    padding: 0;
+}
+
+#submenu li {
+    list-style-type: none;
+    float: left;
+}
+
+#submenu li a {
+    display: block;
+    width: auto;
+    border-right: solid 1px #FFF7E8;
+    text-align: center;
+    text-decoration: none;
+    color: #707038;
+    font-weight: bold;
+    padding-right: 6px;
+    margin-right: 3px;
+}
+
+#submenu li:last-child a {
+    border: none;
+}
+
+#submenu li+li+li a {
+    border: none;
+}
+
+small {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    color:#969696 ;
+    margin-top: 10px;
+}
+
