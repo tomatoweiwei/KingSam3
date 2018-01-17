@@ -216,6 +216,7 @@ background: #aaba9e url(img/bg_header.png) repeat-x left bottom;
 
 footer{
   background-color: #FFDEA1;
+  margin:5px;
     padding: 5px;
 }
 
